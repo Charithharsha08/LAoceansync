@@ -1,0 +1,29 @@
+.table-view {
+    -fx-background-color: #e0f7ff; /* Light ocean blue background */
+    -fx-border-color: #0077b6; /* Dark ocean blue border */
+    -fx-table-cell-border-color: #0077b6; /* Dark ocean blue cell border */
+}
+
+.table-view .column-header {
+    -fx-background-color: linear-gradient(#caf0f8, #90e0ef); /* Gradient from light to medium ocean blue */
+    -fx-border-color: transparent transparent #0077b6 transparent; /* Dark ocean blue bottom border */
+    -fx-font-size: 14px;
+    -fx-text-fill: #023e8a; /* Dark ocean blue text */
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #e0f7ff; /* Light ocean blue background */
+    -fx-border-color: transparent transparent #90e0ef transparent; /* Medium ocean blue bottom border */
+    -fx-font-size: 14px;
+    -fx-text-fill: #023e8a; /* Dark ocean blue text */
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #0077b6; /* Dark ocean blue background when selected */
+    -fx-text-fill: #ffffff; /* White text when selected */
+}
+
+.table-view .table-cell {
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 8px;
+}
