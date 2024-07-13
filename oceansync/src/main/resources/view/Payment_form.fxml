@@ -53,7 +53,7 @@
          <graphic>
             <ImageView fitHeight="17.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../asserts/image/icon/icons8-add-50.png" />
+                  <Image url="@../image/icon/icons8-register-96.png" />
                </image>
             </ImageView>
          </graphic>
@@ -62,7 +62,7 @@
          <graphic>
             <ImageView fitHeight="16.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../asserts/image/icon/shopping-cart.png" />
+                  <Image url="@../image/icon/shopping-cart.png" />
                </image>
             </ImageView>
          </graphic>
@@ -86,7 +86,7 @@
          <graphic>
             <ImageView fitHeight="17.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../asserts/image/icon/icons8-add-50.png" />
+                  <Image url="@../image/icon/icons8-register-96.png" />
                </image>
             </ImageView>
          </graphic>
@@ -95,7 +95,7 @@
          <graphic>
             <ImageView fitHeight="16.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../asserts/image/icon/shopping-cart.png" />
+                  <Image url="@../image/icon/shopping-cart.png" />
                </image>
             </ImageView>
          </graphic>
@@ -117,7 +117,7 @@
          <graphic>
             <ImageView fitHeight="17.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../asserts/image/icon/icons8-add-50.png" />
+                  <Image url="@../image/icon/icons8-register-96.png" />
                </image>
             </ImageView>
          </graphic>
@@ -126,7 +126,7 @@
          <graphic>
             <ImageView fitHeight="16.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../asserts/image/icon/shopping-cart.png" />
+                  <Image url="@../image/icon/shopping-cart.png" />
                </image>
             </ImageView>
          </graphic>
@@ -147,7 +147,7 @@
          <graphic>
             <ImageView fitHeight="17.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../asserts/image/icon/icons8-create-order-96.png" />
+                  <Image url="@../image/icon/order" />
                </image>
             </ImageView>
          </graphic>
@@ -156,7 +156,7 @@
          <graphic>
             <ImageView fitHeight="16.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../asserts/image/icon/icons8-clear-50.png" />
+                  <Image url="@../image/icon/icons8-clear-50.png" />
                </image>
             </ImageView>
          </graphic>
@@ -182,7 +182,7 @@
          <graphic>
             <ImageView fitHeight="17.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../asserts/image/icon/icons8-register-96.png" />
+                  <Image url="@../image/icon/icons8-register-96.png" />
                </image>
             </ImageView>
          </graphic>
@@ -191,7 +191,7 @@
          <graphic>
             <ImageView fitHeight="17.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../asserts/image/icon/icons8-print-50.png" />
+                  <Image url="@../image/icon/icons8-print-50.png" />
                </image>
             </ImageView>
          </graphic>

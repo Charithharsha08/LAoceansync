@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="768.0" prefWidth="1053.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.oceansync.controller.DiscountFormController">
+<AnchorPane prefHeight="768.0" prefWidth="1053.0" styleClass="background" stylesheets="@../css/design.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.oceansync.controller.DiscountFormController">
    <children>
       <Label layoutX="268.0" layoutY="53.0" prefHeight="98.0" prefWidth="658.0" text="DISCOUNT MANAGE">
          <font>
@@ -20,7 +20,7 @@
       </Label>
       <ImageView fitHeight="76.0" fitWidth="72.0" layoutX="178.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../asserts/image/icon/discount.png" />
+            <Image url="@../image/icon/discount.png" />
          </image>
       </ImageView>
       <JFXTextField fx:id="txtDiscount" labelFloat="true" layoutX="698.0" layoutY="490.0" onAction="#txtDiscountOnAction" prefHeight="25.0" prefWidth="212.0" promptText="Discount" />
@@ -30,32 +30,32 @@
       <JFXTextField fx:id="txtSearchId" labelFloat="true" layoutX="731.0" layoutY="232.0" onAction="#txtSearchIdOnAction" prefHeight="25.0" prefWidth="174.0" promptText="Search Discount Id" />
       <ImageView fitHeight="32.0" fitWidth="27.0" layoutX="698.0" layoutY="231.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../newOceansync/src/main/resources/asserts/image/icon/icons8-search-64.png" />
+            <Image url="@../image/icon/icons8-search-64.png" />
          </image>
       </ImageView>
-      <JFXButton buttonType="RAISED" layoutX="772.0" layoutY="617.0" onAction="#btnSaveOnAction" prefHeight="37.0" prefWidth="100.0" styleClass="pane_1" stylesheets="@../../../../../../../newOceansync/src/main/resources/css/design.css" text="Save">
+      <JFXButton buttonType="RAISED" layoutX="772.0" layoutY="617.0" onAction="#btnSaveOnAction" prefHeight="37.0" prefWidth="100.0" styleClass="pane_1" stylesheets="@../css/design.css" text="Save">
          <graphic>
             <ImageView fitHeight="27.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../newOceansync/src/main/resources/asserts/image/icon/icons8-save-50.png" />
+                  <Image url="@../image/icon/icons8-save-50.png" />
                </image>
             </ImageView>
          </graphic>
       </JFXButton>
-      <JFXButton buttonType="RAISED" layoutX="892.0" layoutY="617.0" onAction="#brnClearOnAction" prefHeight="37.0" prefWidth="100.0" styleClass="pane_11" stylesheets="@../../../../../../../newOceansync/src/main/resources/css/design.css" text="Clear">
+      <JFXButton buttonType="RAISED" layoutX="892.0" layoutY="617.0" onAction="#brnClearOnAction" prefHeight="37.0" prefWidth="100.0" styleClass="pane_11" stylesheets="@../css/design.css" text="Clear">
          <graphic>
             <ImageView fitHeight="27.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../newOceansync/src/main/resources/asserts/image/icon/icons8-clear-50.png" />
+                  <Image url="@../image/icon/icons8-clear-50.png" />
                </image>
             </ImageView>
          </graphic>
       </JFXButton>
-      <JFXButton layoutX="648.0" layoutY="617.0" onAction="#btnDeleteOnAction" prefHeight="37.0" prefWidth="100.0" styleClass="pane_1" stylesheets="@../../../../../../../newOceansync/src/main/resources/css/design.css" text="Delete">
+      <JFXButton layoutX="648.0" layoutY="617.0" onAction="#btnDeleteOnAction" prefHeight="37.0" prefWidth="100.0" styleClass="pane_1" stylesheets="@../css/design.css" text="Delete">
          <graphic>
             <ImageView fitHeight="27.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../../../../newOceansync/src/main/resources/asserts/image/icon/icons8-delete-30.png" />
+                  <Image url="@../image/icon/icons8-delete-30.png" />
                </image>
             </ImageView>
          </graphic>
