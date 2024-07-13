@@ -10,7 +10,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import lk.ijse.oceansync.bo.BOFactory;
-import lk.ijse.oceansync.bo.DiscountBO;
+import lk.ijse.oceansync.bo.custom.DiscountBO;
 import lk.ijse.oceansync.model.DiscountDTO;
 import lk.ijse.oceansync.view.tdm.DiscountTm;
 

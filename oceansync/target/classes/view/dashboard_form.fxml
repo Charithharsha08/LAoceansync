@@ -22,14 +22,14 @@
                            <graphic>
                               <ImageView fitHeight="59.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../asserts/image/icon/burger-bar.png" />
+                                    <Image url="@../image/icon/burger-bar.png" />
                                  </image>
                               </ImageView>
                            </graphic>
                         </JFXButton>
                         <ImageView fitHeight="91.0" fitWidth="84.0" layoutX="15.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../asserts/image/bg-removed-logo.png" />
+                              <Image url="@../image/bg-removed-logo.png" />
                            </image>
                         </ImageView>
                         <Label layoutX="103.0" layoutY="32.0" prefHeight="35.0" prefWidth="126.0" text="Submarine">
@@ -48,7 +48,7 @@
                      <graphic>
                         <ImageView fitHeight="44.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../asserts/image/icon/home.png" />
+                              <Image url="@../image/icon/home.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -60,7 +60,7 @@
                      <graphic>
                         <ImageView fitHeight="44.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../asserts/image/icon/ready-stock.png" />
+                              <Image url="@../image/icon/ready-stock.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -72,7 +72,7 @@
                      <graphic>
                         <ImageView fitHeight="44.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../asserts/image/icon/business-people.png" />
+                              <Image url="@../image/icon/business-people.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -84,7 +84,7 @@
                      <graphic>
                         <ImageView fitHeight="44.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../asserts/image/icon/customer.png" />
+                              <Image url="@../image/icon/customer.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -96,7 +96,7 @@
                      <graphic>
                         <ImageView fitHeight="44.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../asserts/image/icon/exercise.png" />
+                              <Image url="@../image/icon/exercise.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -111,7 +111,7 @@
                      <graphic>
                         <ImageView fitHeight="44.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../asserts/image/icon/book.png" />
+                              <Image url="@../image/icon/book.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -123,7 +123,7 @@
                      <graphic>
                         <ImageView fitHeight="44.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../asserts/image/icon/payment-method.png" />
+                              <Image url="@../image/icon/payment-method.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -135,7 +135,7 @@
                      <graphic>
                         <ImageView fitHeight="44.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../asserts/image/icon/discount.png" />
+                              <Image url="@../image/icon/discount.png" />
                            </image>
                         </ImageView>
                      </graphic>

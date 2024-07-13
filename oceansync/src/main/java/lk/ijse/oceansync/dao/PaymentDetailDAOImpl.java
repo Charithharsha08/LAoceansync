@@ -1,11 +1,12 @@
 package lk.ijse.oceansync.dao;
 
+import lk.ijse.oceansync.dao.custom.impl.PaymentDetailDAO;
 import lk.ijse.oceansync.entity.PaymentDetail;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class PaymentDetailDAOImpl implements PaymentDetailDAO{
+public class PaymentDetailDAOImpl implements PaymentDetailDAO {
     @Override
     public ArrayList<PaymentDetail> getAll() throws SQLException, ClassNotFoundException {
         return null;

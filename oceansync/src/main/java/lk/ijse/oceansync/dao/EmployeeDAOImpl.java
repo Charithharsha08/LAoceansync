@@ -1,12 +1,13 @@
 package lk.ijse.oceansync.dao;
 
+import lk.ijse.oceansync.dao.custom.impl.EmployeeDAO;
 import lk.ijse.oceansync.entity.Employee;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class EmployeeDAOImpl implements EmployeeDAO{
+public class EmployeeDAOImpl implements EmployeeDAO {
     @Override
     public ArrayList<Employee> getAll() throws SQLException, ClassNotFoundException {
         ArrayList<Employee> employees = new ArrayList<>();

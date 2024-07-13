@@ -1,16 +1,15 @@
-package lk.ijse.oceansync.bo;
+package lk.ijse.oceansync.bo.custom.impl;
 
+import lk.ijse.oceansync.bo.custom.EmployeeBO;
 import lk.ijse.oceansync.dao.DAOFactory;
-import lk.ijse.oceansync.dao.EmployeeDAO;
-import lk.ijse.oceansync.dao.SQLUtil;
+import lk.ijse.oceansync.dao.custom.impl.EmployeeDAO;
 import lk.ijse.oceansync.entity.Employee;
 import lk.ijse.oceansync.model.EmployeeDTO;
 
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class EmployeeBOImpl implements EmployeeBO{
+public class EmployeeBOImpl implements EmployeeBO {
     EmployeeDAO employeeDAO = (EmployeeDAO) DAOFactory.getDaoFactory().getDAO(DAOFactory.DAOTypes.EMPLOYEE);
     @Override
     public ArrayList<EmployeeDTO> getAllEmployee() throws SQLException, ClassNotFoundException {

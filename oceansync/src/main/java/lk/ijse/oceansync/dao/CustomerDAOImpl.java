@@ -1,7 +1,7 @@
 package lk.ijse.oceansync.dao;
 
+import lk.ijse.oceansync.dao.custom.impl.CustomerDAO;
 import lk.ijse.oceansync.entity.Customer;
-import lk.ijse.oceansync.model.CustomerDTO;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

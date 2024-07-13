@@ -1,11 +1,12 @@
-package lk.ijse.oceansync.bo;
+package lk.ijse.oceansync.bo.custom;
 
+import lk.ijse.oceansync.bo.SuperBO;
 import lk.ijse.oceansync.model.CourseDTO;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public interface CourseBO extends SuperBO{
+public interface CourseBO extends SuperBO {
     public CourseDTO searchCourse(String id) throws SQLException, ClassNotFoundException;
     public boolean deleteCourse(String id) throws SQLException, ClassNotFoundException;
     public String generateNewCourseID() throws SQLException, ClassNotFoundException;

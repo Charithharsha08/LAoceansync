@@ -1,12 +1,13 @@
 package lk.ijse.oceansync.dao;
 
+import lk.ijse.oceansync.dao.custom.impl.CourseDAO;
 import lk.ijse.oceansync.entity.Course;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class CourseDAOImpl implements CourseDAO{
+public class CourseDAOImpl implements CourseDAO {
     @Override
     public ArrayList<Course> getAll() throws SQLException, ClassNotFoundException {
         ArrayList<Course> courses = new ArrayList<>();

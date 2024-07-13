@@ -1,5 +1,7 @@
 package lk.ijse.oceansync.bo;
 
+import lk.ijse.oceansync.bo.custom.impl.*;
+
 public class BOFactory {
     public static BOFactory boFactory;
 

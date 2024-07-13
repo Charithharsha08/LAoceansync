@@ -1,6 +1,7 @@
-package lk.ijse.oceansync.bo;
+package lk.ijse.oceansync.bo.custom.impl;
 
-import lk.ijse.oceansync.dao.CourseDAO;
+import lk.ijse.oceansync.bo.custom.CourseBO;
+import lk.ijse.oceansync.dao.custom.impl.CourseDAO;
 import lk.ijse.oceansync.dao.DAOFactory;
 import lk.ijse.oceansync.entity.Course;
 import lk.ijse.oceansync.model.CourseDTO;

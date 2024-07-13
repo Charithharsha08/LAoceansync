@@ -5,7 +5,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import lk.ijse.oceansync.bo.ActivityBO;
+import lk.ijse.oceansync.bo.custom.ActivityBO;
 import lk.ijse.oceansync.bo.BOFactory;
 import lk.ijse.oceansync.model.ActivityDTO;
 import lk.ijse.oceansync.view.tdm.ActivityTm;

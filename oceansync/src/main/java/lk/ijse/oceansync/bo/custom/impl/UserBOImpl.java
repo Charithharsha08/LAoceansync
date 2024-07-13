@@ -1,13 +1,14 @@
-package lk.ijse.oceansync.bo;
+package lk.ijse.oceansync.bo.custom.impl;
 
+import lk.ijse.oceansync.bo.custom.UserBO;
 import lk.ijse.oceansync.dao.DAOFactory;
-import lk.ijse.oceansync.dao.UserDAO;
+import lk.ijse.oceansync.dao.custom.impl.UserDAO;
 import lk.ijse.oceansync.entity.User;
 import lk.ijse.oceansync.model.UserDTO;
 
 import java.sql.SQLException;
 
-public class UserBOImpl implements UserBO{
+public class UserBOImpl implements UserBO {
     UserDAO userDao = (UserDAO) DAOFactory.getDaoFactory().getDAO(DAOFactory.DAOTypes.USER);
 
     @Override

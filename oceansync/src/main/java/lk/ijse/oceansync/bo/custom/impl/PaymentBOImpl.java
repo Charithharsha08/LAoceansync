@@ -1,6 +1,8 @@
-package lk.ijse.oceansync.bo;
+package lk.ijse.oceansync.bo.custom.impl;
 
+import lk.ijse.oceansync.bo.custom.PaymentBO;
 import lk.ijse.oceansync.dao.*;
+import lk.ijse.oceansync.dao.custom.impl.*;
 import lk.ijse.oceansync.db.DbConnection;
 import lk.ijse.oceansync.entity.*;
 import lk.ijse.oceansync.model.*;
@@ -9,7 +11,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
-public class PaymentBOImpl implements PaymentBO{
+public class PaymentBOImpl implements PaymentBO {
     PaymentDAO paymentDAO = (PaymentDAO) DAOFactory.getDaoFactory().getDAO(DAOFactory.DAOTypes.PAYMENT);
     PaymentDetailDAO paymentDetailDAO  = (PaymentDetailDAO) DAOFactory.getDaoFactory().getDAO(DAOFactory.DAOTypes.PAYMENTDETAIL);
     StockDAO stockDAO = (StockDAO) DAOFactory.getDaoFactory().getDAO(DAOFactory.DAOTypes.STOCK);

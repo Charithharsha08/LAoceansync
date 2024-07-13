@@ -1,6 +1,7 @@
-package lk.ijse.oceansync.bo;
+package lk.ijse.oceansync.bo.custom.impl;
 
-import lk.ijse.oceansync.dao.ActivityDAO;
+import lk.ijse.oceansync.bo.custom.ActivityBO;
+import lk.ijse.oceansync.dao.custom.impl.ActivityDAO;
 import lk.ijse.oceansync.dao.DAOFactory;
 import lk.ijse.oceansync.entity.Activity;
 import lk.ijse.oceansync.model.ActivityDTO;
@@ -8,7 +9,7 @@ import lk.ijse.oceansync.model.ActivityDTO;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class ActivityBOImpl implements ActivityBO{
+public class ActivityBOImpl implements ActivityBO {
     ActivityDAO activityDAO = (ActivityDAO) DAOFactory.getDaoFactory().getDAO(DAOFactory.DAOTypes.ACTIVITY);
     @Override
     public ArrayList<ActivityDTO> getAllActivity() throws SQLException, ClassNotFoundException {

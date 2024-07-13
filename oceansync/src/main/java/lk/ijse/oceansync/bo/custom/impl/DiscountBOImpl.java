@@ -1,14 +1,15 @@
-package lk.ijse.oceansync.bo;
+package lk.ijse.oceansync.bo.custom.impl;
 
+import lk.ijse.oceansync.bo.custom.DiscountBO;
 import lk.ijse.oceansync.dao.DAOFactory;
-import lk.ijse.oceansync.dao.DiscountDAO;
+import lk.ijse.oceansync.dao.custom.impl.DiscountDAO;
 import lk.ijse.oceansync.entity.Discount;
 import lk.ijse.oceansync.model.DiscountDTO;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class DiscountBOImpl implements DiscountBO{
+public class DiscountBOImpl implements DiscountBO {
     DiscountDAO discountDAO = (DiscountDAO) DAOFactory.getDaoFactory().getDAO(DAOFactory.DAOTypes.DISCOUNT);
 
     @Override

@@ -1,12 +1,13 @@
 package lk.ijse.oceansync.dao;
 
+import lk.ijse.oceansync.dao.custom.impl.DiscountDAO;
 import lk.ijse.oceansync.entity.Discount;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class DiscountDAOImpl implements DiscountDAO{
+public class DiscountDAOImpl implements DiscountDAO {
     @Override
     public ArrayList<Discount> getAll() throws SQLException, ClassNotFoundException {
         ArrayList<Discount> discounts = new ArrayList<>();

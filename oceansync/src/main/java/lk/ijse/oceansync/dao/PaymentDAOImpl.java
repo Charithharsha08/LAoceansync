@@ -1,5 +1,6 @@
 package lk.ijse.oceansync.dao;
 
+import lk.ijse.oceansync.dao.custom.impl.PaymentDAO;
 import lk.ijse.oceansync.entity.Payment;
 
 import java.sql.ResultSet;

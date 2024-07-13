@@ -1,8 +1,8 @@
-package lk.ijse.oceansync.bo;
+package lk.ijse.oceansync.bo.custom.impl;
 
-import lk.ijse.oceansync.dao.CustomerDAO;
+import lk.ijse.oceansync.bo.custom.CustomerBO;
+import lk.ijse.oceansync.dao.custom.impl.CustomerDAO;
 import lk.ijse.oceansync.dao.DAOFactory;
-import lk.ijse.oceansync.dao.SQLUtil;
 import lk.ijse.oceansync.entity.Customer;
 import lk.ijse.oceansync.model.CustomerDTO;
 

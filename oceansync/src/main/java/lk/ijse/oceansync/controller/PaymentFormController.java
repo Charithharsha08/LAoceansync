@@ -11,6 +11,7 @@ import javafx.scene.Cursor;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import lk.ijse.oceansync.bo.*;
+import lk.ijse.oceansync.bo.custom.*;
 import lk.ijse.oceansync.db.DbConnection;
 import lk.ijse.oceansync.model.*;
 import lk.ijse.oceansync.view.tdm.PaymentTm;

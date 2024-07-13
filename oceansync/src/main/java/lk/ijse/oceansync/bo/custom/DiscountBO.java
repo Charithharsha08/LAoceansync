@@ -1,11 +1,12 @@
-package lk.ijse.oceansync.bo;
+package lk.ijse.oceansync.bo.custom;
 
+import lk.ijse.oceansync.bo.SuperBO;
 import lk.ijse.oceansync.model.DiscountDTO;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public interface DiscountBO extends SuperBO{
+public interface DiscountBO extends SuperBO {
     public ArrayList<DiscountDTO> getAllDiscount() throws SQLException, ClassNotFoundException;
     public boolean addDiscount(DiscountDTO entity) throws SQLException, ClassNotFoundException;
     public String generateNewDiscountID() throws SQLException, ClassNotFoundException;

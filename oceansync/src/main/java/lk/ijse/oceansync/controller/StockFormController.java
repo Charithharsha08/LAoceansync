@@ -8,14 +8,12 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.AnchorPane;
 import lk.ijse.oceansync.bo.BOFactory;
-import lk.ijse.oceansync.bo.StockBO;
-import lk.ijse.oceansync.dao.DAOFactory;
+import lk.ijse.oceansync.bo.custom.StockBO;
 import lk.ijse.oceansync.model.StockDTO;
 import lk.ijse.oceansync.view.tdm.StockTm;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class StockFormController {
 

@@ -1,12 +1,12 @@
-package lk.ijse.oceansync.bo;
+package lk.ijse.oceansync.bo.custom;
 
-import lk.ijse.oceansync.entity.Employee;
+import lk.ijse.oceansync.bo.SuperBO;
 import lk.ijse.oceansync.model.EmployeeDTO;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public interface EmployeeBO extends SuperBO{
+public interface EmployeeBO extends SuperBO {
     public ArrayList<EmployeeDTO> getAllEmployee() throws SQLException, ClassNotFoundException;
     public boolean addEmployee(EmployeeDTO dto) throws SQLException, ClassNotFoundException;
     public boolean updateEmployee(EmployeeDTO dto) throws SQLException, ClassNotFoundException;

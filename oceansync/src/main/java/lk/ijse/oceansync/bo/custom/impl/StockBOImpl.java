@@ -1,7 +1,8 @@
-package lk.ijse.oceansync.bo;
+package lk.ijse.oceansync.bo.custom.impl;
 
+import lk.ijse.oceansync.bo.custom.StockBO;
 import lk.ijse.oceansync.dao.DAOFactory;
-import lk.ijse.oceansync.dao.StockDAO;
+import lk.ijse.oceansync.dao.custom.impl.StockDAO;
 import lk.ijse.oceansync.entity.Stock;
 import lk.ijse.oceansync.model.StockDTO;
 

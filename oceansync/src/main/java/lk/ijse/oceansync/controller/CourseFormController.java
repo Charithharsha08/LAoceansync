@@ -6,7 +6,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import lk.ijse.oceansync.bo.BOFactory;
-import lk.ijse.oceansync.bo.CourseBO;
+import lk.ijse.oceansync.bo.custom.CourseBO;
 import lk.ijse.oceansync.model.CourseDTO;
 import lk.ijse.oceansync.view.tdm.CourceTm;
 

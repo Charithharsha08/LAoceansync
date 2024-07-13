@@ -12,13 +12,11 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import lk.ijse.oceansync.bo.BOFactory;
-import lk.ijse.oceansync.bo.UserBO;
-import lk.ijse.oceansync.bo.UserBOImpl;
+import lk.ijse.oceansync.bo.custom.UserBO;
 import lk.ijse.oceansync.model.UserDTO;
 
 import java.io.IOException;
 import java.sql.SQLException;
-import java.util.logging.ErrorManager;
 
 public class LoginFormController {
 

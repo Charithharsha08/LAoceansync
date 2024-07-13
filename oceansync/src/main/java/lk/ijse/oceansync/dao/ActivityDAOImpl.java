@@ -1,12 +1,11 @@
 package lk.ijse.oceansync.dao;
 
+import lk.ijse.oceansync.dao.custom.impl.ActivityDAO;
 import lk.ijse.oceansync.entity.Activity;
-import lk.ijse.oceansync.model.ActivityDTO;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.List;
 
 public class ActivityDAOImpl implements ActivityDAO {
     @Override

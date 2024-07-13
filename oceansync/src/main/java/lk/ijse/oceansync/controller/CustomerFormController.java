@@ -8,7 +8,7 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.AnchorPane;
 import lk.ijse.oceansync.bo.BOFactory;
-import lk.ijse.oceansync.bo.CustomerBO;
+import lk.ijse.oceansync.bo.custom.CustomerBO;
 import lk.ijse.oceansync.model.CustomerDTO;
 import lk.ijse.oceansync.view.tdm.CustomerTm;
 

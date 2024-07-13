@@ -12,7 +12,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import javafx.stage.Window;
 import lk.ijse.oceansync.bo.BOFactory;
-import lk.ijse.oceansync.bo.UserBO;
+import lk.ijse.oceansync.bo.custom.UserBO;
 import lk.ijse.oceansync.model.UserDTO;
 
 

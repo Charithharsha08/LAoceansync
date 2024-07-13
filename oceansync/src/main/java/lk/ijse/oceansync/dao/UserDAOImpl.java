@@ -1,5 +1,6 @@
 package lk.ijse.oceansync.dao;
 
+import lk.ijse.oceansync.dao.custom.impl.UserDAO;
 import lk.ijse.oceansync.entity.User;
 
 import java.sql.ResultSet;

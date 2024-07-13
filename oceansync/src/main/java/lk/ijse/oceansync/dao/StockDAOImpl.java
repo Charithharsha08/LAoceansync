@@ -1,12 +1,13 @@
 package lk.ijse.oceansync.dao;
 
+import lk.ijse.oceansync.dao.custom.impl.StockDAO;
 import lk.ijse.oceansync.entity.Stock;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class StockDAOImpl implements StockDAO{
+public class StockDAOImpl implements StockDAO {
     @Override
     public ArrayList<Stock> getAll() throws SQLException, ClassNotFoundException {
         ArrayList<Stock> allStocks =new ArrayList<>();

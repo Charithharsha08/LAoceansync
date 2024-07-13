@@ -1,11 +1,12 @@
 package lk.ijse.oceansync.dao;
 
+import lk.ijse.oceansync.dao.custom.impl.SelectedActivityDAO;
 import lk.ijse.oceansync.entity.SelectedActivity;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class SelectedActivityDAOImpl implements SelectedActivityDAO{
+public class SelectedActivityDAOImpl implements SelectedActivityDAO {
     @Override
     public ArrayList<SelectedActivity> getAll() throws SQLException, ClassNotFoundException {
         return null;
