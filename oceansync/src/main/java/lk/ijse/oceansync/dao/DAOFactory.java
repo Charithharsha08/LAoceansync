@@ -1,5 +1,8 @@
 package lk.ijse.oceansync.dao;
 
+import lk.ijse.oceansync.entity.SelectedStock;
+import lk.ijse.oceansync.model.SelectedStockDTO;
+
 public class DAOFactory {
     private static DAOFactory daoFactory;
 
@@ -12,10 +15,10 @@ public class DAOFactory {
     private DAOFactory(){
     }
     public enum DAOTypes{
-      ACTIVITY, COURSE,CUSTOMER,DISCOUNT,EMPLOYEE,PAYMENT,PAYMENTDETAIL,SELECTEDACTIVITY,SELECTEDCOURCE,SELECTEDSTOCK,STOCK,USER
+      ACTIVITY, COURSE,CUSTOMER,DISCOUNT,EMPLOYEE,PAYMENT,PAYMENTDETAIL,SELECTEDACTIVITY,SELECTEDCOURCE,STOCK,USER
     }
-    public static CrudDAO getDAO(DAOTypes daoTypes ){
-        switch (daoTypes){
+    public static CrudDAO getDAO(DAOTypes daoTypes ) {
+       /* switch (daoTypes) {
             case USER:
                 return new UserDAOImpl();
             case STOCK:
@@ -40,6 +43,20 @@ public class DAOFactory {
                 return new DiscountDAOImpl();
             default:
                 return null;
-        }
+        }*/
+        return switch (daoTypes) {
+            case DISCOUNT -> new DiscountDAOImpl();
+            case EMPLOYEE -> new EmployeeDAOImpl();
+            case PAYMENTDETAIL -> new PaymentDAOImpl();
+            case SELECTEDCOURCE -> new SelectedCourceDAOImpl();
+            case PAYMENT -> new PaymentDAOImpl();
+            case ACTIVITY -> new ActivityDAOImpl();
+            case COURSE -> new CourseDAOImpl();
+            case CUSTOMER -> new CustomerDAOImpl();
+            case STOCK -> new StockDAOImpl();
+            case USER -> new UserDAOImpl();
+            case SELECTEDACTIVITY -> new SelectedActivityDAOImpl();
+        };
     }
+
 }
